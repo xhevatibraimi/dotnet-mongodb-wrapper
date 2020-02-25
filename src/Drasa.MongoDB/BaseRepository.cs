@@ -1,8 +1,9 @@
-﻿using MongoDB.Driver.Linq;
+﻿using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 
-namespace MongoDB.Driver.Wrapper
+namespace Drasa.MongoDB
 {
-    public abstract class MongoWrapper<T> where T : new()
+    public abstract class BaseRepository<T> where T : new()
     {
         protected readonly MongoDbConfig Config;
         protected string CollectionName;
@@ -10,7 +11,7 @@ namespace MongoDB.Driver.Wrapper
         protected IMongoDatabase Database;
         protected IMongoCollection<T> Collection;
 
-        public MongoWrapper(MongoDbConfig config)
+        public BaseRepository(MongoDbConfig config)
         {
             Config = config;
             Client = new MongoClient(config.ConnectionString);

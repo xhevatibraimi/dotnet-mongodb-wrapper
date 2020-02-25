@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MongoDB.Driver.Wrapper
+namespace Drasa.MongoDB
 {
     public class MongoDbConfig
     {

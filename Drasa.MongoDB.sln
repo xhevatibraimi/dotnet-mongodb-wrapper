@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{9FFA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "samples\Demo\Demo.csproj", "{829CC530-F3A4-4F38-AFBD-BC0CB74FEE26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoDB.Driver.Wrapper", "src\MongDB.Driver.Wrapper\MongoDB.Driver.Wrapper.csproj", "{42F334A5-7179-4F52-BA1C-CCC1B18DAEBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drasa.MongoDB", "src\Drasa.MongoDB\Drasa.MongoDB.csproj", "{9A39D258-A7DE-4C72-B3BA-EA22F34E1707}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +21,17 @@ Global
 		{829CC530-F3A4-4F38-AFBD-BC0CB74FEE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{829CC530-F3A4-4F38-AFBD-BC0CB74FEE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{829CC530-F3A4-4F38-AFBD-BC0CB74FEE26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{42F334A5-7179-4F52-BA1C-CCC1B18DAEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42F334A5-7179-4F52-BA1C-CCC1B18DAEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42F334A5-7179-4F52-BA1C-CCC1B18DAEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42F334A5-7179-4F52-BA1C-CCC1B18DAEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A39D258-A7DE-4C72-B3BA-EA22F34E1707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A39D258-A7DE-4C72-B3BA-EA22F34E1707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A39D258-A7DE-4C72-B3BA-EA22F34E1707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A39D258-A7DE-4C72-B3BA-EA22F34E1707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{829CC530-F3A4-4F38-AFBD-BC0CB74FEE26} = {9FFA2092-1442-4846-B10D-753634CEAF99}
-		{42F334A5-7179-4F52-BA1C-CCC1B18DAEBB} = {277C1F99-73B2-4663-B7DA-A9F97E7EF389}
+		{9A39D258-A7DE-4C72-B3BA-EA22F34E1707} = {277C1F99-73B2-4663-B7DA-A9F97E7EF389}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB14BA9A-DE01-426D-8D03-9CFF224ADA6D}

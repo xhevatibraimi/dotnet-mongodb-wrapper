@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MongDB.Driver.Wrapper\MongoDB.Driver.Wrapper.csproj" />
+    <ProjectReference Include="..\..\src\Drasa.MongoDB\Drasa.MongoDB.csproj" />
   </ItemGroup>
 
 </Project>

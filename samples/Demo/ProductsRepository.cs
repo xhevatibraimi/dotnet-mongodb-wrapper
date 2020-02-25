@@ -1,11 +1,11 @@
-﻿using MongoDB.Driver.Wrapper;
+﻿using Drasa.MongoDB;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using MongoDB.Driver;
 
 namespace Demo
 {
-    public class ProductsRepository : MongoWrapper<Product>
+    public class ProductsRepository : BaseRepository<Product>
     {
         public ProductsRepository(MongoDbConfig config) : base(config) { }
 
